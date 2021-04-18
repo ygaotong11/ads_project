@@ -1,0 +1,36 @@
+a.sign_up {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    z-index: 2;
+    font-size:20px;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    font-family:georgia;
+    font-weight: bold;
+    font-weight: 400;
+    padding:0.35em 1.2em;
+    color:black;
+    transition: all 0.2s;
+
+}
+a.sign_up:hover{
+    color:#FFFFFF;
+    background-color:#000000;
+}
+
+.header{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
